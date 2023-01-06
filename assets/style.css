@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    background: rgb(181,0,255);
+    background: linear-gradient(0deg, rgba(181,0,255,1) 33%, rgba(255,108,0,1) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 10vh;
+    padding: 10px;
+}
+
+label{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+input {
+    font-size: 3vh;
+}
+
+button:hover {
+    background-color: rgb(61, 10, 108);
+}
+
+li {
+    padding: 3px;
+    font-size: 3vh;
+    list-style: none;
+    color: aliceblue;
+}
